@@ -29,7 +29,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: ReleaseNum
-      - id: ReleaseNum
         name: Set Release Number
         run: |
           $locationOfProject = "src/Octopus.Trident.Web/Octopus.Trident.Web.csproj"
